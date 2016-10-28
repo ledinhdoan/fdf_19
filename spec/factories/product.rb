@@ -7,5 +7,6 @@ FactoryGirl.define do
     image Faker::Lorem.sentences
     description Faker::Lorem.sentences
     rate Faker::Number.decimal(1,3)
+    category
   end
 end
